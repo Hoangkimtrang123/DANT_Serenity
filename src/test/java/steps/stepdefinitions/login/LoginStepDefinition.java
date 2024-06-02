@@ -47,8 +47,8 @@ public class LoginStepDefinition {
         actor.attemptsTo(LoginTask.login(email, pass));
     }
 
-    @Then("the user shouldd see an error message {string}")
-    public void theUserShoulddSeeAnErrorMessage(Actor actor,String expectedErrorMessage) {
+    @Then("the user should see an error message {string}")
+    public void theUserShouldSeeAnErrorMessage(Actor actor,String expectedErrorMessage) {
         actor.should(
                 seeThat("The error message", Text.of(LoginPageElements.ERROR_MESSAGE_FIELD),
                         containsString(expectedErrorMessage))

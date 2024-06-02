@@ -1,7 +1,7 @@
 @search
 Feature: Searching for information on the internet
-  Background:
-    Given the user is on the main search page on the internet
+#  Background:
+#    Given the user is on the main search page on the internet
 
 #  @search
 #  Scenario: The user searches for information about "son"

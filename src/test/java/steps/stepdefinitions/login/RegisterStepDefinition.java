@@ -54,12 +54,12 @@ public class RegisterStepDefinition {
         theActorInTheSpotlight().attemptsTo(RegisterTask.ClicksTheRegisterButton(theActorInTheSpotlight()));
     }
 
-    @Then("the user should see an error message {string}")
-    public void theUserShouldSeeAnErrorMessage( Actor actor,String expectedErrorMessage) {
-         actor.should(
-                seeThat("The error message", Text.of(RegistrationPageElements.ERRORMESSAGE_FIELD), containsString(expectedErrorMessage))
-        );
-    }
+//    @Then("the user should see an error message {string}")
+//    public void theUserShouldSeeAnErrorMessage( Actor actor,String expectedErrorMessage) {
+//         actor.should(
+//                seeThat("The error message", Text.of(RegistrationPageElements.ERRORMESSAGE_FIELD), containsString(expectedErrorMessage))
+//        );
+//    }
 
     @Then("the user should the see the home page")
     public void theUserShouldTheSeeTheHomePage(Actor actor) {

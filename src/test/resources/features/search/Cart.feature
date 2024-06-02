@@ -1,10 +1,10 @@
 
 Feature: Cart
-  Background:
-  As an online shopper
-  actor want to manage my shopping cart
-  So that {actor} can add, edit, and remove products from my cart
-  So that the user can purchase them later
+#  Background:
+#  As an online shopper
+#  actor want to manage my shopping cart
+#  So that {actor} can add, edit, and remove products from my cart
+#  So that the user can purchase them later
 #
 #  @cart
 #  Scenario: Add a product to the cart

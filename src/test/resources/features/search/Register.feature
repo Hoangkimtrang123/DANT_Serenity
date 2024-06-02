@@ -1,10 +1,10 @@
 
 
 Feature: User Registration
-  Background:
-  As a new user,
-  the user want to register an account
-  So that the user can access features available to registered users
+#  Background:
+#  As a new user,
+#  the user want to register an account
+#  So that the user can access features available to registered users
 #
 #  @registration
 #  Scenario: Successful registration

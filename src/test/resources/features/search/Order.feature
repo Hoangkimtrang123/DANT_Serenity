@@ -1,9 +1,8 @@
 
-
-Feature:
-  As an online shopper,
-  the user want to place an order
-  So that the user can purchase the products I desire.
+Feature: Order
+#  As an online shopper,
+#  the user want to place an order
+#  So that the user can purchase the products I desire.
 
 #  Background:
 #    Given the user has logged into their account
